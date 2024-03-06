@@ -85,6 +85,136 @@ public class Animales {
         this.especie = especie;
     }
 
+    public String getRaza() {
+        return raza;
+    }
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public String getColor() {
+        return color;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getEdad() {
+        return edad;
+    }
+    public void setEdad(String edad) {
+        this.edad = edad;
+    }
+
+    public String getPeso() {
+        return peso;
+    }
+    public void setPeso(String peso) {
+        this.peso = peso;
+    }
+
+    public String getAltura() {
+        return altura;
+    }
+    public void setAltura(String altura) {
+        this.altura = altura;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getHabitat() {
+        return habitat;
+    }
+    public void setHabitat(String habitat) {
+        this.habitat = habitat;
+    }
+
+    public String getAlimentacion() {
+        return alimentacion;
+    }
+    public void setAlimentacion(String alimentacion) {
+        this.alimentacion = alimentacion;
+    }
+
+    public String getReproduccion() {
+        return reproduccion;
+    }
+    public void setReproduccion(String reproduccion) {
+        this.reproduccion = reproduccion;
+    }
+
+    public String getCuidados() {
+        return cuidados;
+    }
+    public void setCuidados(String cuidados) {
+        this.cuidados = cuidados;
+    }
+
+    public String getEnfermedades() {
+        return enfermedades;
+    }
+    public void setEnfermedades(String enfermedades) {
+        this.enfermedades = enfermedades;
+    }
+
+    public String getVacunas() {
+        return vacunas;
+    }
+    public void setVacunas(String vacunas) {
+        this.vacunas = vacunas;
+    }
+
+    public boolean isSalud() {
+        return salud;
+    }
+    public void setSalud(boolean salud) {
+        this.salud = salud;
+    }
+
+    public boolean isComportamiento() {
+        return comportamiento;
+    }
+    public void setComportamiento(boolean comportamiento) {
+        this.comportamiento = comportamiento;
+    }
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void buenasalud (boolean salud) {
+        if (salud == true) {
+            System.out.println("El animal" + nombre + "se encuentra en buen estado de salud");
+        } else {
+            System.out.println("El animal" + nombre + "se encuentra en mal estado de salud");
+        }
+    }
+
+    public void buencomportamiento (boolean comportamiento) {
+        if (comportamiento == true) {
+            System.out.println("El animal" + nombre + "tiene buen comportamiento");
+        } else {
+            System.out.println("El animal" + nombre + "tiene mal comportamiento");
+        }
+    }
+
+
+
 
 
 
