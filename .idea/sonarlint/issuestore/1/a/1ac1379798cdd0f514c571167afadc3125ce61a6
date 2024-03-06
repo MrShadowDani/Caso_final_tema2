@@ -1,48 +1,31 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‰ñÒûÿÿÿÿ8şÒ¼á1
-^	java:S107"BConstructor has 18 parameters, which is greater than 7 authorized.(ŸÊ¶Œ8‡Ó¼á1
+n
+java:S1192Ê"KDefine a constant instead of duplicating this literal "El animal" 10 times.(ë©àöøÿÿÿÿ8ëÃ÷á1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‰ñÒûÿÿÿÿ8ìÃ÷á1
+^	java:S107"BConstructor has 18 parameters, which is greater than 7 authorized.(ŸÊ¶Œ8öÃ÷á1
 o
-java:S29756"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8‰Ó¼á1
+java:S29756"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8÷Ã÷á1
 D
-java:S11856"(Remove this method to simply inherit it.(™”” 8‰Ó¼á1
+java:S11856"(Remove this method to simply inherit it.(™”” 8÷Ã÷á1
 h
-java:S5738@"FDon't override this deprecated method, it has been marked for removal.(ÖÒ˜Ùùÿÿÿÿ8‹Ó¼á1
+java:S5738@"FDon't override this deprecated method, it has been marked for removal.(ÖÒ˜Ùùÿÿÿÿ8øÃ÷á1
 J
-java:S1185@"(Remove this method to simply inherit it.(ÖÒ˜Ùùÿÿÿÿ8‹Ó¼á1
+java:S1185@"(Remove this method to simply inherit it.(ÖÒ˜Ùùÿÿÿÿ8øÃ÷á1
 O
-java:S1113@"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8‹Ó¼á1
+java:S1113@"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8øÃ÷á1
 j
-java:S5738A"HRemove this call to a deprecated method, it has been marked for removal.(¯¶ú“üÿÿÿÿ8ŒÓ¼á1
+java:S5738A"HRemove this call to a deprecated method, it has been marked for removal.(¯¶ú“üÿÿÿÿ8ùÃ÷á1
+E
+java:S1125É"'Remove the unnecessary boolean literal.(ËõùÅ8üÃ÷á1
+M	java:S106Ê"+Replace this use of System.out by a logger.(ë©àöøÿÿÿÿ8üÃ÷á1
+M	java:S106Ì"+Replace this use of System.out by a logger.(òÂÈ şÿÿÿÿ8üÃ÷á1
 J
-java:S1068"(Remove this unused "raza" private field.(îÜĞ£üÿÿÿÿ8Ó¼á1
-F
-java:S1068	")Remove this unused "color" private field.(È„…¦8Ó¼á1
-J
-java:S1068
-"(Remove this unused "sexo" private field.(¤ßäŒúÿÿÿÿ8Ó¼á1
-J
-java:S1068"(Remove this unused "edad" private field.(¶ºúÿÿÿÿ8Ó¼á1
-J
-java:S1068"(Remove this unused "peso" private field.(‰úé§şÿÿÿÿ8Ó¼á1
-G
-java:S1068"*Remove this unused "altura" private field.(«¸£8Ó¼á1
-D
-java:S1068"(Remove this unused "tipo" private field.(¿„­\8Ó¼á1
-H
-java:S1068"+Remove this unused "habitat" private field.(µ¢Ê‘8Ó¼á1
-M
-java:S1068"0Remove this unused "alimentacion" private field.(­ŠÜé8Ó¼á1
-R
-java:S1068"0Remove this unused "reproduccion" private field.(õ¯ğşÿÿÿÿ8Ó¼á1
-H
-java:S1068",Remove this unused "cuidados" private field.(ƒ¡£T8Ó¼á1
-M
-java:S1068"0Remove this unused "enfermedades" private field.(§ï‚Á8Ó¼á1
-H
-java:S1068"+Remove this unused "vacunas" private field.(’Ì¬™8Ó¼á1
-F
-java:S1068")Remove this unused "salud" private field.(ËºÊò8Ó¼á1
-T
-java:S1068"2Remove this unused "comportamiento" private field.(ÌÚÜ¼üÿÿÿÿ8Ó¼á1
-H
-java:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8Ó¼á1
+java:S1125Ñ"'Remove the unnecessary boolean literal.(ÍÜÂ÷øÿÿÿÿ8üÃ÷á1
+H	java:S106Ò"+Replace this use of System.out by a logger.(ó€ø8üÃ÷á1
+M	java:S106Ô"+Replace this use of System.out by a logger.(á¦ùÿÿÿÿ8üÃ÷á1
+M	java:S106Ú"+Replace this use of System.out by a logger.(ÙçÀçşÿÿÿÿ8ıÃ÷á1
+H	java:S106Ş"+Replace this use of System.out by a logger.( ®àõ8şÃ÷á1
+H	java:S106â"+Replace this use of System.out by a logger.(Ò…ß8şÃ÷á1
+M	java:S106æ"+Replace this use of System.out by a logger.(×ÓŸÑÿÿÿÿÿ8şÃ÷á1
+G	java:S106ê"+Replace this use of System.out by a logger.(åè’;8ïÏüá1
+M	java:S106î"+Replace this use of System.out by a logger.(ã‚½ùÿÿÿÿ8À¼şá1

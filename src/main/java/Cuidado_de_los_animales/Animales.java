@@ -213,9 +213,30 @@ public class Animales {
         }
     }
 
+    //Metodo para mostrar los datos de los animales
+    public void registrarAlimentacion (String alimentacion) {
+        System.out.println("El animal" + nombre + "se alimenta de" + alimentacion);
+    }
 
+    public void registrarReproduccion (String reproduccion) {
+        System.out.println("El animal" + id + "se reproduce con" + reproduccion);
+    }
 
+    public void registrarCuidados (String cuidados) {
+        System.out.println("El animal" + id + "necesita" + cuidados);
+    }
 
+    public void registrarEnfermedades (String enfermedades) {
+        System.out.println("El animal" + id + "puede sufrir de" + enfermedades);
+    }
+
+    public void registrarVacunas (String vacunas) {
+        System.out.println("El animal" + id + "necesita vacunarse de" + vacunas);
+    }
+
+    public void registrarHabitat (String habitat) {
+        System.out.println("El animal" + nombre + "vive en" + habitat);
+    }
 
 
 

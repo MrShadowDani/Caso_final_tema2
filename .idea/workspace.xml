@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b506b30d-c7b6-4cc0-9a2f-668ab36d505e" name="Changes" comment="Avances">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1ac1379798cdd0f514c571167afadc3125ce61a6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1ac1379798cdd0f514c571167afadc3125ce61a6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cuidado_de_los_animales/Animales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cuidado_de_los_animales/Animales.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -54,6 +57,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/danij/IdeaProjects/Caso_final_tema2/Zoologico/Mantenimiento_Seguridad/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "org.sonarlint.intellij.config.project.SonarLintProjectConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709718079047</updated>
-      <workItem from="1709718080229" duration="6027000" />
+      <workItem from="1709718080229" duration="8375000" />
     </task>
     <task id="LOCAL-00001" summary="Avances">
       <option name="closed" value="true" />
@@ -146,7 +150,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709727760840</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1709729454695</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709729454695</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1709729867063</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709729867063</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,5 +201,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
