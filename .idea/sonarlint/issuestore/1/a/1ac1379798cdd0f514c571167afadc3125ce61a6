@@ -1,40 +1,48 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‰ñÒûÿÿÿÿ8á¤Çá1
-^	java:S107"BConstructor has 18 parameters, which is greater than 7 authorized.(ŸÊ¶Œ8æ¤Çá1
-L
-java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8é¤Çá1
-H
-java:S1068"+Remove this unused "especie" private field.(Á’ñ®8é¤Çá1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‰ñÒûÿÿÿÿ8şÒ¼á1
+^	java:S107"BConstructor has 18 parameters, which is greater than 7 authorized.(ŸÊ¶Œ8‡Ó¼á1
+o
+java:S29756"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8‰Ó¼á1
+D
+java:S11856"(Remove this method to simply inherit it.(™”” 8‰Ó¼á1
+h
+java:S5738@"FDon't override this deprecated method, it has been marked for removal.(ÖÒ˜Ùùÿÿÿÿ8‹Ó¼á1
 J
-java:S1068"(Remove this unused "raza" private field.(îÜĞ£üÿÿÿÿ8é¤Çá1
+java:S1185@"(Remove this method to simply inherit it.(ÖÒ˜Ùùÿÿÿÿ8‹Ó¼á1
+O
+java:S1113@"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8‹Ó¼á1
+j
+java:S5738A"HRemove this call to a deprecated method, it has been marked for removal.(¯¶ú“üÿÿÿÿ8ŒÓ¼á1
+J
+java:S1068"(Remove this unused "raza" private field.(îÜĞ£üÿÿÿÿ8Ó¼á1
 F
-java:S1068")Remove this unused "color" private field.(È„…¦8ê¤Çá1
-J
-java:S1068	"(Remove this unused "sexo" private field.(¤ßäŒúÿÿÿÿ8ê¤Çá1
+java:S1068	")Remove this unused "color" private field.(È„…¦8Ó¼á1
 J
 java:S1068
-"(Remove this unused "edad" private field.(¶ºúÿÿÿÿ8ê¤Çá1
+"(Remove this unused "sexo" private field.(¤ßäŒúÿÿÿÿ8Ó¼á1
 J
-java:S1068"(Remove this unused "peso" private field.(‰úé§şÿÿÿÿ8ê¤Çá1
+java:S1068"(Remove this unused "edad" private field.(¶ºúÿÿÿÿ8Ó¼á1
+J
+java:S1068"(Remove this unused "peso" private field.(‰úé§şÿÿÿÿ8Ó¼á1
 G
-java:S1068"*Remove this unused "altura" private field.(«¸£8ê¤Çá1
+java:S1068"*Remove this unused "altura" private field.(«¸£8Ó¼á1
 D
-java:S1068"(Remove this unused "tipo" private field.(¿„­\8ê¤Çá1
+java:S1068"(Remove this unused "tipo" private field.(¿„­\8Ó¼á1
 H
-java:S1068"+Remove this unused "habitat" private field.(µ¢Ê‘8ê¤Çá1
+java:S1068"+Remove this unused "habitat" private field.(µ¢Ê‘8Ó¼á1
 M
-java:S1068"0Remove this unused "alimentacion" private field.(­ŠÜé8ë¤Çá1
+java:S1068"0Remove this unused "alimentacion" private field.(­ŠÜé8Ó¼á1
 R
-java:S1068"0Remove this unused "reproduccion" private field.(õ¯ğşÿÿÿÿ8ì¤Çá1
+java:S1068"0Remove this unused "reproduccion" private field.(õ¯ğşÿÿÿÿ8Ó¼á1
 H
-java:S1068",Remove this unused "cuidados" private field.(ƒ¡£T8î¤Çá1
+java:S1068",Remove this unused "cuidados" private field.(ƒ¡£T8Ó¼á1
 M
-java:S1068"0Remove this unused "enfermedades" private field.(§ï‚Á8ğ¤Çá1
+java:S1068"0Remove this unused "enfermedades" private field.(§ï‚Á8Ó¼á1
 H
-java:S1068"+Remove this unused "vacunas" private field.(’Ì¬™8ò¤Çá1
+java:S1068"+Remove this unused "vacunas" private field.(’Ì¬™8Ó¼á1
 F
-java:S1068")Remove this unused "salud" private field.(ËºÊò8ó¤Çá1
+java:S1068")Remove this unused "salud" private field.(ËºÊò8Ó¼á1
 T
-java:S1068"2Remove this unused "comportamiento" private field.(ÌÚÜ¼üÿÿÿÿ8õ¤Çá1
+java:S1068"2Remove this unused "comportamiento" private field.(ÌÚÜ¼üÿÿÿÿ8Ó¼á1
 H
-java:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8õ¤Çá1
+java:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8Ó¼á1

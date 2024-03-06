@@ -1,6 +1,7 @@
 package Cuidado_de_los_animales;
 
 public class Animales {
+
     //Caracteristicas de los animales
     private String nombre;
     private String especie;
@@ -42,6 +43,50 @@ public class Animales {
         this.comportamiento = comportamiento;
         this.id = id;
     }
+
+    //Datos guardados en la base de datos
+    @Override
+    public String toString() {
+        return "Animal []";
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    //Getters y setters para todos los atributos
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+
+
 
 
 
