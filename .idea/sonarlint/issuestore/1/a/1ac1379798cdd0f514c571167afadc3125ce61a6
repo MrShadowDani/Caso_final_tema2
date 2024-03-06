@@ -1,0 +1,39 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‰ñÒûÿÿÿÿ8ğü’›á1
+L
+java:S1068"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8ôü’›á1
+H
+java:S1068"+Remove this unused "especie" private field.(Á’ñ®8õü’›á1
+J
+java:S1068"(Remove this unused "raza" private field.(îÜĞ£üÿÿÿÿ8÷ü’›á1
+F
+java:S1068")Remove this unused "color" private field.(È„…¦8øü’›á1
+J
+java:S1068	"(Remove this unused "sexo" private field.(¤ßäŒúÿÿÿÿ8ùü’›á1
+J
+java:S1068
+"(Remove this unused "edad" private field.(¶ºúÿÿÿÿ8ùü’›á1
+J
+java:S1068"(Remove this unused "peso" private field.(‰úé§şÿÿÿÿ8ùü’›á1
+G
+java:S1068"*Remove this unused "altura" private field.(«¸£8ùü’›á1
+D
+java:S1068"(Remove this unused "tipo" private field.(¿„­\8ùü’›á1
+H
+java:S1068"+Remove this unused "habitat" private field.(µ¢Ê‘8ùü’›á1
+M
+java:S1068"0Remove this unused "alimentacion" private field.(­ŠÜé8ùü’›á1
+R
+java:S1068"0Remove this unused "reproduccion" private field.(õ¯ğşÿÿÿÿ8ùü’›á1
+H
+java:S1068",Remove this unused "cuidados" private field.(ƒ¡£T8î¨“›á1
+M
+java:S1068"0Remove this unused "enfermedades" private field.(§ï‚Á8î¨“›á1
+H
+java:S1068"+Remove this unused "vacunas" private field.(’Ì¬™8ÍÆ“›á1
+F
+java:S1068")Remove this unused "salud" private field.(ËºÊò8ÇÛ”›á1
+T
+java:S1068"2Remove this unused "comportamiento" private field.(ÌÚÜ¼üÿÿÿÿ8¹…—›á1
+H
+java:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8¹…—›á1
