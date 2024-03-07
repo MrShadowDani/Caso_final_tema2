@@ -199,17 +199,17 @@ public class Animales {
 
     public void buenasalud (boolean salud) {
         if (salud == true) {
-            System.out.println("El animal" + nombre + "se encuentra en buen estado de salud");
+            System.out.println("El animal" + nombre + id  + "se encuentra en buen estado de salud");
         } else {
-            System.out.println("El animal" + nombre + "se encuentra en mal estado de salud");
+            System.out.println("El animal" + nombre + id + "se encuentra en mal estado de salud");
         }
     }
 
     public void buencomportamiento (boolean comportamiento) {
         if (comportamiento == true) {
-            System.out.println("El animal" + nombre + "tiene buen comportamiento");
+            System.out.println("El animal" + nombre + id  + "tiene buen comportamiento");
         } else {
-            System.out.println("El animal" + nombre + "tiene mal comportamiento");
+            System.out.println("El animal" + nombre + id + "tiene mal comportamiento");
         }
     }
 
@@ -219,27 +219,63 @@ public class Animales {
     }
 
     public void registrarReproduccion (String reproduccion) {
-        System.out.println("El animal" + id + "se reproduce con" + reproduccion);
+        System.out.println("El animal" + nombre + id + "se reproduce con" + reproduccion);
     }
 
     public void registrarCuidados (String cuidados) {
-        System.out.println("El animal" + id + "necesita" + cuidados);
+        System.out.println("El animal" +nombre + id + "necesita" + cuidados);
     }
 
     public void registrarEnfermedades (String enfermedades) {
-        System.out.println("El animal" + id + "puede sufrir de" + enfermedades);
+        System.out.println("El animal" + nombre + id + "puede sufrir de" + enfermedades);
     }
 
     public void registrarVacunas (String vacunas) {
-        System.out.println("El animal" + id + "necesita vacunarse de" + vacunas);
+        System.out.println("El animal" + nombre + id + "necesita vacunarse de" + vacunas);
     }
 
     public void registrarHabitat (String habitat) {
         System.out.println("El animal" + nombre + "vive en" + habitat);
     }
 
+    public void registrarPeso (String peso) {
+        System.out.println("El animal" + nombre + id + "pesa" + peso);
+    }
 
+    public void registrarAltura (String altura) {
+        System.out.println("El animal" + nombre + id + "mide" + altura);
+    }
 
+    public void registrarEdad (String edad) {
+        System.out.println("El animal" + nombre + id + "tiene" + edad);
+    }
 
+    public void registrarColor (String color) {
+        System.out.println("El animal" + nombre + id + "es de color" + color);
+    }
+
+    public void registrarRaza (String raza) {
+        System.out.println("El animal" + nombre + id + "es de raza" + raza);
+    }
+
+    public void registrarEspecie (String especie) {
+        System.out.println("El animal" + nombre + id + "es de especie" + especie);
+    }
+
+    public void regsitrarNombre (String nombre) {
+        System.out.println("El animal" + nombre + id + "se llama" + nombre);
+    }
+
+    public void registrarSexo (String sexo) {
+        System.out.println("El animal" + nombre + id + "es de sexo" + sexo);
+    }
+
+    public void registrarTipo (String tipo) {
+        System.out.println("El animal" + nombre + id + "es de tipo" + tipo);
+    }
+
+    public void registrarId (int id) {
+        System.out.println("El animal" + nombre + "tiene el id" + id);
+    }
 
 }

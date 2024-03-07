@@ -1,23 +1,9 @@
 
-S
-#src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-A
-Zoologico/pom.xml,6\e\6efd477df45e0461461463577ddbc8144084270a
-]
--Zoologico/src/main/java/org/example/Main.java,1\a\1a2e7d3f9ae9988ae0352d94f24afcfcdbf20765
-F
-Administracion/pom.xml,c\b\cb4a51d28aa343963af7ff15c28fc18beefef181
-b
-2Administracion/src/main/java/org/example/Main.java,e\4\e4ae27207a09e34c81e03f93dd35623f19385e11
-Y
-)Zoologico/Mantenimiento_Seguridad/pom.xml,d\8\d8932b4a4e0dbb6a02779eb401a23f5f008653c1
-u
-EZoologico/Mantenimiento_Seguridad/src/main/java/org/example/Main.java,a\a\aa966c47fc2416a6fb82d5bfd4ebbbc1b7d27599
 w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
 w
@@ -25,31 +11,11 @@ G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\86
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 Å
-Q.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b,a\b\abe25e851ee828e40a94fcb1c1be6f78ff7a04cf
-Å
 Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 Å
 Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,3\0\30205a209c6ce77c4cfc19a09e6f57c588b7fb88
-Å
-Q.idea/sonarlint/securityhotspotstore/6/e/6efd477df45e0461461463577ddbc8144084270a,d\7\d70f9b4f2ee04bbb3a6eaf64f31e803175af9627
-w
-G.idea/sonarlint/issuestore/d/8/d8932b4a4e0dbb6a02779eb401a23f5f008653c1,9\d\9d24b11a416654aa9334a77d8aee1c27b42ed42c
-w
-G.idea/sonarlint/issuestore/6/e/6efd477df45e0461461463577ddbc8144084270a,4\4\442e18987dab3d3c324d06a3c95d94dd1e39ea18
-Å
-Q.idea/sonarlint/securityhotspotstore/e/4/e4ae27207a09e34c81e03f93dd35623f19385e11,2\e\2ebc49487cc2748a0d98b5a813315619f067db8d
-Å
-Q.idea/sonarlint/securityhotspotstore/d/8/d8932b4a4e0dbb6a02779eb401a23f5f008653c1,1\2\128bc7f3080e5f313b0df874d0f03d7d6ca1fc75
-Å
-Q.idea/sonarlint/securityhotspotstore/a/a/aa966c47fc2416a6fb82d5bfd4ebbbc1b7d27599,8\2\8263842c57fb4b3270fe49986235f35bbc87d2ee
-w
-G.idea/sonarlint/issuestore/c/b/cb4a51d28aa343963af7ff15c28fc18beefef181,8\f\8ff90e4a895cb4d74291abcea860337ff112790f
-Å
-Q.idea/sonarlint/securityhotspotstore/1/a/1a2e7d3f9ae9988ae0352d94f24afcfcdbf20765,a\d\ad640bae1ce6f860b9529af7b2ae4856726ac42a
-Å
-Q.idea/sonarlint/securityhotspotstore/c/b/cb4a51d28aa343963af7ff15c28fc18beefef181,3\f\3ffbd66a9407f0fae0cd8420137b715db2bed663
 L
 src/main/java/Zoologico.java,b\f\bfa13a2d2782291bd4d8fafceb21b17813f0062a
 c
