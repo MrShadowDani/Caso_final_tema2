@@ -230,3 +230,11 @@ Q.idea/sonarlint/securityhotspotstore/0/c/0c4799549ebca80c86406fd218445fef27b61a
 Q.idea/sonarlint/securityhotspotstore/0/8/08188fd43910e23d0db9339062f1d6ee77500efe,2\a\2a3b6b7ced9c7026362fad808dbe6535c5df4f2f
 Å
 Q.idea/sonarlint/securityhotspotstore/0/3/0320cb7bcab862c93ca7f999e6d48a928e4cc2c1,8\b\8b4537e3a4087ba68cee76c71d328d2c8ed51baa
+m
+=src/main/java/Cuidado_de_los_animales/Animales_acuaticos.java,e\0\e0d09076e0e0a5bb29f7e5745d9965f85febc223
+i
+9src/main/java/Cuidado_de_los_animales/Animal_aviario.java,d\5\d50f3e50c8a45ec283dbc40a91878cfae829a0c8
+Å
+Q.idea/sonarlint/securityhotspotstore/e/0/e0d09076e0e0a5bb29f7e5745d9965f85febc223,9\1\91f6ffa2e09eb558b3296858bda9af30acff90a8
+Å
+Q.idea/sonarlint/securityhotspotstore/d/5/d50f3e50c8a45ec283dbc40a91878cfae829a0c8,8\5\85b49282613345d02abcedcdf92980662b42ed0f

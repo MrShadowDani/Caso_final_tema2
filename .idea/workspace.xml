@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b506b30d-c7b6-4cc0-9a2f-668ab36d505e" name="Changes" comment="Avances">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a2e7d3f9ae9988ae0352d94f24afcfcdbf20765" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6efd477df45e0461461463577ddbc8144084270a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa966c47fc2416a6fb82d5bfd4ebbbc1b7d27599" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb4a51d28aa343963af7ff15c28fc18beefef181" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8932b4a4e0dbb6a02779eb401a23f5f008653c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4ae27207a09e34c81e03f93dd35623f19385e11" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cuidado_de_los_animales/Animal_aviario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cuidado_de_los_animales/Animales_acuaticos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1ac1379798cdd0f514c571167afadc3125ce61a6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1ac1379798cdd0f514c571167afadc3125ce61a6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/a/1a2e7d3f9ae9988ae0352d94f24afcfcdbf20765" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/e/6efd477df45e0461461463577ddbc8144084270a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa966c47fc2416a6fb82d5bfd4ebbbc1b7d27599" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/b/cb4a51d28aa343963af7ff15c28fc18beefef181" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/8/d8932b4a4e0dbb6a02779eb401a23f5f008653c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e4ae27207a09e34c81e03f93dd35623f19385e11" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -93,6 +82,7 @@
       <updated>1709718079047</updated>
       <workItem from="1709718080229" duration="8510000" />
       <workItem from="1709744687210" duration="67000" />
+      <workItem from="1709829403512" duration="2303000" />
     </task>
     <task id="LOCAL-00001" summary="Avances">
       <option name="closed" value="true" />
@@ -190,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709731404144</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1709830371130</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709830371130</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

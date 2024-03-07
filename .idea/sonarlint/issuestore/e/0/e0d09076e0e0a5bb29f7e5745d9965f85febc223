@@ -1,0 +1,8 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®†¶¯ýÿÿÿÿ8¢§¡Ïá1
+r	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©é³’ÿÿÿÿÿ8¤§¡Ïá1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ëé–Ðýÿÿÿÿ8¥§¡Ïá1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‰ñÒûÿÿÿÿ8§§¡Ïá1
+u	java:S116	"TRename this field "tipo_agua" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ª”ôûÿÿÿÿ8¨§¡Ïá1
+O
+java:S1068	"-Remove this unused "tipo_agua" private field.(©ª”ôûÿÿÿÿ8¬§¡Ïá1

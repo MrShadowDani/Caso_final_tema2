@@ -1,31 +1,41 @@
 
-n
-java:S1192Ê"KDefine a constant instead of duplicating this literal "El animal" 10 times.(ë©àöøÿÿÿÿ8ëÃ÷á1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‰ñÒûÿÿÿÿ8ìÃ÷á1
-^	java:S107"BConstructor has 18 parameters, which is greater than 7 authorized.(ŸÊ¶Œ8öÃ÷á1
+i
+java:S1192Ê"KDefine a constant instead of duplicating this literal "El animal" 20 times.(û¢Å½8ØïÒÎá1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‰ñÒûÿÿÿÿ8ÙïÒÎá1
+^	java:S107"BConstructor has 18 parameters, which is greater than 7 authorized.(ŸÊ¶Œ8æïÒÎá1
 o
-java:S29756"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8÷Ã÷á1
+java:S29756"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8èïÒÎá1
 D
-java:S11856"(Remove this method to simply inherit it.(™”” 8÷Ã÷á1
+java:S11856"(Remove this method to simply inherit it.(™”” 8éïÒÎá1
 h
-java:S5738@"FDon't override this deprecated method, it has been marked for removal.(ÖÒ˜Ùùÿÿÿÿ8øÃ÷á1
+java:S5738@"FDon't override this deprecated method, it has been marked for removal.(ÖÒ˜Ùùÿÿÿÿ8êïÒÎá1
 J
-java:S1185@"(Remove this method to simply inherit it.(ÖÒ˜Ùùÿÿÿÿ8øÃ÷á1
+java:S1185@"(Remove this method to simply inherit it.(ÖÒ˜Ùùÿÿÿÿ8êïÒÎá1
 O
-java:S1113@"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8øÃ÷á1
+java:S1113@"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8êïÒÎá1
 j
-java:S5738A"HRemove this call to a deprecated method, it has been marked for removal.(¯¶ú“üÿÿÿÿ8ùÃ÷á1
+java:S5738A"HRemove this call to a deprecated method, it has been marked for removal.(¯¶ú“üÿÿÿÿ8êïÒÎá1
 E
-java:S1125É"'Remove the unnecessary boolean literal.(ËõùÅ8üÃ÷á1
-M	java:S106Ê"+Replace this use of System.out by a logger.(ë©àöøÿÿÿÿ8üÃ÷á1
-M	java:S106Ì"+Replace this use of System.out by a logger.(òÂÈ şÿÿÿÿ8üÃ÷á1
+java:S1125É"'Remove the unnecessary boolean literal.(ËõùÅ8íïÒÎá1
+H	java:S106Ê"+Replace this use of System.out by a logger.(û¢Å½8ïïÒÎá1
+H	java:S106Ì"+Replace this use of System.out by a logger.(Ø¡áñ8ïïÒÎá1
 J
-java:S1125Ñ"'Remove the unnecessary boolean literal.(ÍÜÂ÷øÿÿÿÿ8üÃ÷á1
-H	java:S106Ò"+Replace this use of System.out by a logger.(ó€ø8üÃ÷á1
-M	java:S106Ô"+Replace this use of System.out by a logger.(á¦ùÿÿÿÿ8üÃ÷á1
-M	java:S106Ú"+Replace this use of System.out by a logger.(ÙçÀçşÿÿÿÿ8ıÃ÷á1
-H	java:S106Ş"+Replace this use of System.out by a logger.( ®àõ8şÃ÷á1
-H	java:S106â"+Replace this use of System.out by a logger.(Ò…ß8şÃ÷á1
-M	java:S106æ"+Replace this use of System.out by a logger.(×ÓŸÑÿÿÿÿÿ8şÃ÷á1
-G	java:S106ê"+Replace this use of System.out by a logger.(åè’;8ïÏüá1
-M	java:S106î"+Replace this use of System.out by a logger.(ã‚½ùÿÿÿÿ8À¼şá1
+java:S1125Ñ"'Remove the unnecessary boolean literal.(ÍÜÂ÷øÿÿÿÿ8ïïÒÎá1
+H	java:S106Ò"+Replace this use of System.out by a logger.(Šôæø8ïïÒÎá1
+M	java:S106Ô"+Replace this use of System.out by a logger.(ª²¢øÿÿÿÿ8ğïÒÎá1
+M	java:S106Ú"+Replace this use of System.out by a logger.(ÙçÀçşÿÿÿÿ8ğïÒÎá1
+M	java:S106Ş"+Replace this use of System.out by a logger.(éÌçğøÿÿÿÿ8ğïÒÎá1
+M	java:S106â"+Replace this use of System.out by a logger.(¥ã¾Ÿûÿÿÿÿ8ğïÒÎá1
+G	java:S106æ"+Replace this use of System.out by a logger.(è°†8ñïÒÎá1
+H	java:S106ê"+Replace this use of System.out by a logger.(ğÃŞĞ8ñïÒÎá1
+M	java:S106î"+Replace this use of System.out by a logger.(ã‚½ùÿÿÿÿ8ñïÒÎá1
+G	java:S106ò"+Replace this use of System.out by a logger.(¦â˜_8òïÒÎá1
+H	java:S106ö"+Replace this use of System.out by a logger.(À¶•Œ8òïÒÎá1
+M	java:S106ú"+Replace this use of System.out by a logger.(ÚŒ›Œıÿÿÿÿ8òïÒÎá1
+M	java:S106ş"+Replace this use of System.out by a logger.(¡ª–×ıÿÿÿÿ8òïÒÎá1
+M	java:S106‚"+Replace this use of System.out by a logger.(®˜ê–ıÿÿÿÿ8òïÒÎá1
+H	java:S106†"+Replace this use of System.out by a logger.(Á ß§8óïÒÎá1
+M	java:S106Š"+Replace this use of System.out by a logger.(ô‰Ó¥ıÿÿÿÿ8óïÒÎá1
+M	java:S106"+Replace this use of System.out by a logger.(««²ûÿÿÿÿ8óïÒÎá1
+H	java:S106’"+Replace this use of System.out by a logger.(Àéä²8óïÒÎá1
+M	java:S106–"+Replace this use of System.out by a logger.(ûÉíÿÿÿÿÿ8ôïÒÎá1
