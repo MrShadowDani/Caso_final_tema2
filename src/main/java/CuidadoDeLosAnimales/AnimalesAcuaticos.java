@@ -1,14 +1,15 @@
-package cuidado_de_los_animales;
+package CuidadoDeLosAnimales;
 
-public class Animales_acuaticos  extends Animales{
-
+public class AnimalesAcuaticos extends Animales{
+    //Caracteristicas de los animales acuaticos
     private boolean aletas;
     private boolean branquias;
     private boolean escamas;
     private boolean caparazon;
     private String tipo_agua;
 
-    public Animales_acuaticos(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean aletas, boolean branquias, boolean escamas, boolean caparazon, String tipo_agua) {
+    //Constructor
+    public AnimalesAcuaticos(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean aletas, boolean branquias, boolean escamas, boolean caparazon, String tipo_agua) {
         super(nombre, especie, raza, color, sexo, edad, peso, altura, tipo, habitat, alimentacion, reproduccion, cuidados, enfermedades, vacunas, salud, comportamiento, id);
         this.aletas = aletas;
         this.branquias = branquias;

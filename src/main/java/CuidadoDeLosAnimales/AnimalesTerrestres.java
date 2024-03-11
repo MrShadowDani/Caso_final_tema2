@@ -1,14 +1,15 @@
-package cuidado_de_los_animales;
+package CuidadoDeLosAnimales;
 
-public class Animales_terrestres extends Animales{
-
+public class AnimalesTerrestres extends Animales{
+    //Caracteristicas de los animales terrestres
     private boolean patas;
     private boolean cola;
     private boolean pelo;
     private boolean garras;
     private String tipo_terrestre;
 
-    public Animales_terrestres(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean patas, boolean cola, boolean pelo, boolean garras, String tipo_terrestre) {
+    //Constructor
+    public AnimalesTerrestres(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean patas, boolean cola, boolean pelo, boolean garras, String tipo_terrestre) {
         super(nombre, especie, raza, color, sexo, edad, peso, altura, tipo, habitat, alimentacion, reproduccion, cuidados, enfermedades, vacunas, salud, comportamiento, id);
         this.patas = patas;
         this.cola = cola;

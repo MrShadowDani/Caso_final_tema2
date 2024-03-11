@@ -1,4 +1,4 @@
-package gestion_de_habitats;
+package GestionDeHabitats;
 
 public class Habitats {
 

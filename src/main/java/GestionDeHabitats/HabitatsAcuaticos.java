@@ -1,18 +1,21 @@
-package gestion_de_habitats;
+package GestionDeHabitats;
 
-import cuidado_de_los_animales.Animales_acuaticos;
+import CuidadoDeLosAnimales.AnimalesAcuaticos;
+
+import java.util.ArrayList;
 import java.util.List;
 
-public class Habitats_acuaticos extends Habitats{
-
+public class HabitatsAcuaticos extends Habitats{
+    //Caracteristicas de los habitats acuaticos
     private String salinidad;
     private String profundidad;
     private String tipo_de_agua;
     private String calidad_del_agua;
     private String cantidad_de_agua;
-    private List<Animales_acuaticos> animales;
+    private List<AnimalesAcuaticos> animales;
 
-public Habitats_acuaticos(String nombre, String dimensiones, String ubicacion, String tipo, String temperatura, String humedad, String vegetacion, String fauna, String estado, int id, int capacidadMaxima, int numAnimales, String especieDominante, String salinidad, String profundidad, String tipo_de_agua, String calidad_del_agua, String cantidad_de_agua, List<Animales_acuaticos> animales) {
+    //Constructor
+    public HabitatsAcuaticos(String nombre, String dimensiones, String ubicacion, String tipo, String temperatura, String humedad, String vegetacion, String fauna, String estado, int id, int capacidadMaxima, int numAnimales, String especieDominante, String salinidad, String profundidad, String tipo_de_agua, String calidad_del_agua, String cantidad_de_agua, List<AnimalesAcuaticos> animales) {
         super(nombre, dimensiones, ubicacion, tipo, temperatura, humedad, vegetacion, fauna, estado, id, capacidadMaxima, numAnimales, especieDominante);
         this.salinidad = salinidad;
         this.profundidad = profundidad;
@@ -22,8 +25,18 @@ public Habitats_acuaticos(String nombre, String dimensiones, String ubicacion, S
         this.animales = animales;
     }
 
-    //Getters y setters
+    //Constructor de copias
+    public HabitatsAcuaticos(HabitatsAcuaticos original) {
+        super(original);
+        this.salinidad = original.salinidad;
+        this.profundidad = original.profundidad;
+        this.tipo_de_agua = original.tipo_de_agua;
+        this.calidad_del_agua = original.calidad_del_agua;
+        this.cantidad_de_agua = original.cantidad_de_agua;
+        this.animales = original.animales != null ? new ArrayList<>(original.animales) : null;
+    }
 
+    //Getters y setters
     public String getSalinidad() {
         return salinidad;
     }
@@ -59,10 +72,10 @@ public Habitats_acuaticos(String nombre, String dimensiones, String ubicacion, S
         this.cantidad_de_agua = cantidad_de_agua;
     }
 
-    public List<Animales_acuaticos> getAnimales() {
+    public List<AnimalesAcuaticos> getAnimales() {
         return animales;
     }
-    public void setAnimales(List<Animales_acuaticos> animales) {
+    public void setAnimales(List<AnimalesAcuaticos> animales) {
         this.animales = animales;
     }
 }

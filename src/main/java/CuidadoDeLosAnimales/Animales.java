@@ -1,7 +1,6 @@
-package cuidado_de_los_animales;
+package CuidadoDeLosAnimales;
 
 public class Animales {
-
     //Caracteristicas de los animales
     private String nombre;
     private String especie;
