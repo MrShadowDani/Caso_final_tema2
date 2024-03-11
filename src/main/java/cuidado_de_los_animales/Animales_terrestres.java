@@ -1,4 +1,4 @@
-package Cuidado_de_los_animales;
+package cuidado_de_los_animales;
 
 public class Animales_terrestres extends Animales{
 
@@ -46,7 +46,11 @@ public class Animales_terrestres extends Animales{
         this.garras = garras;
     }
 
+    public String getTipo_terrestre() {
+        return this.tipo_terrestre;
+    }
     public void setTipo_terrestre(String tipo_terrestre) {
         this.tipo_terrestre = tipo_terrestre;
     }
+
 }

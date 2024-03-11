@@ -124,10 +124,6 @@ w
 G.idea/sonarlint/issuestore/9/1/91f6ffa2e09eb558b3296858bda9af30acff90a8,e\e\ee3d07bc2d653c844b739e28b77e4d083d73dcd1
 
 Q.idea/sonarlint/securityhotspotstore/2/7/2747724da2e985513443d1c8b478057bc855d16e,2\f\2f17bcbfa509d845ed3931a85d1f6d0598b872da
-w
-G.idea/sonarlint/issuestore/8/5/85b49282613345d02abcedcdf92980662b42ed0f,8\d\8d4bb6f14aaa040d655568a9aa2d35db23cceba2
-
-Q.idea/sonarlint/securityhotspotstore/8/5/85b49282613345d02abcedcdf92980662b42ed0f,f\1\f15a1716eab353f72aeabe3687c4a293bab7ccd2
 
 Q.idea/sonarlint/securityhotspotstore/d/e/de3dde93c5e636f8eab6c6091fb04926cbdd4ee9,7\5\75f16f5cf5e8b8f251a00f0dffe4a333af23e0ec
 _
@@ -138,3 +134,13 @@ h
 8src/main/java/Gestion_de_habitats/Habitats_aviarios.java,6\b\6ba7d39936b97514ac7071a1ae649e32876fa500
 j
 :src/main/java/Gestion_de_habitats/Habitats_terrestres.java,1\b\1b6f241f906df64504bd5a1805c1c6e2e66da9d7
+c
+3src/main/java/cuidado_de_los_animales/Animales.java,8\7\8755c461ef70ccbc59d5ae5b2625697627156ad4
+_
+/src/main/java/gestion_de_habitats/Habitats.java,3\9\39319996fa77ad3aadbe4c137c16de7097abe9d9
+h
+8src/main/java/gestion_de_habitats/Habitats_aviarios.java,4\5\450973b6ce75a5e217e36ad1ae7c7f869c6badab
+i
+9src/main/java/gestion_de_habitats/Habitats_acuaticos.java,b\7\b732b1b8d6152a60a1d961483362444de6524cab
+j
+:src/main/java/gestion_de_habitats/Habitats_terrestres.java,e\9\e92c94136cd2705037cbeea6d36bd62c9ae6d147

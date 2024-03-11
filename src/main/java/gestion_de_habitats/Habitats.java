@@ -1,4 +1,4 @@
-package Gestion_de_habitats;
+package gestion_de_habitats;
 
 public class Habitats {
 
@@ -34,6 +34,23 @@ public class Habitats {
         this.especieDominante = especieDominante;
     }
 
+    // Constructor de copia
+    public Habitats(Habitats original) {
+        this.nombre = original.nombre;
+        this.dimensiones = original.dimensiones;
+        this.ubicacion = original.ubicacion;
+        this.tipo = original.tipo;
+        this.temperatura = original.temperatura;
+        this.humedad = original.humedad;
+        this.vegetacion = original.vegetacion;
+        this.fauna = original.fauna;
+        this.estado = original.estado;
+        this.id = original.id;
+        this.capacidadMaxima = original.capacidadMaxima;
+        this.numAnimales = original.numAnimales;
+        this.especieDominante = original.especieDominante;
+    }
+
     //Datos guardados en la base de datos
     @Override
     public String toString() {
@@ -41,18 +58,8 @@ public class Habitats {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
-
-    @Override
     public boolean equals(Object obj) {
         return super.equals(obj);
-    }
-
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
     }
 
     @Override

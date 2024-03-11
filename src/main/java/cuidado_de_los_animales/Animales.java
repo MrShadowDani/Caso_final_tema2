@@ -1,4 +1,4 @@
-package Cuidado_de_los_animales;
+package cuidado_de_los_animales;
 
 public class Animales {
 
@@ -21,6 +21,7 @@ public class Animales {
     private boolean salud;
     private boolean comportamiento;
     private int id;
+    private static final String Animal_literal = "El animal";
 
     //Constructor
     public Animales(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id) {
@@ -44,15 +45,32 @@ public class Animales {
         this.id = id;
     }
 
+    // Constructor de copia
+    public Animales(Animales original) {
+        this.nombre = original.nombre;
+        this.especie = original.especie;
+        this.raza = original.raza;
+        this.color = original.color;
+        this.sexo = original.sexo;
+        this.edad = original.edad;
+        this.peso = original.peso;
+        this.altura = original.altura;
+        this.tipo = original.tipo;
+        this.habitat = original.habitat;
+        this.alimentacion = original.alimentacion;
+        this.reproduccion = original.reproduccion;
+        this.cuidados = original.cuidados;
+        this.enfermedades = original.enfermedades;
+        this.vacunas = original.vacunas;
+        this.salud = original.salud;
+        this.comportamiento = original.comportamiento;
+        this.id = original.id;
+    }
+
     //Datos guardados en la base de datos
     @Override
     public String toString() {
         return "Animal []";
-    }
-
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
     }
 
     @Override
@@ -194,83 +212,83 @@ public class Animales {
 
     public void buenasalud () {
         if (salud) {
-            System.out.println("El animal" + nombre + id  + "se encuentra en buen estado de salud");
+            System.out.println(Animal_literal + nombre + id  + "se encuentra en buen estado de salud");
         } else {
-            System.out.println("El animal" + nombre + id + "se encuentra en mal estado de salud");
+            System.out.println(Animal_literal + nombre + id + "se encuentra en mal estado de salud");
         }
     }
 
     public void buencomportamiento () {
         if (comportamiento) {
-            System.out.println("El animal" + nombre + id  + "tiene buen comportamiento");
+            System.out.println(Animal_literal + nombre + id  + "tiene buen comportamiento");
         } else {
-            System.out.println("El animal" + nombre + id + "tiene mal comportamiento");
+            System.out.println(Animal_literal + nombre + id + "tiene mal comportamiento");
         }
     }
 
     //Metodo para mostrar los datos de los animales
     public void registrarAlimentacion (String alimentacion) {
-        System.out.println("El animal" + nombre + "se alimenta de" + alimentacion);
+        System.out.println(Animal_literal + nombre + "se alimenta de" + alimentacion);
     }
 
     public void registrarReproduccion (String reproduccion) {
-        System.out.println("El animal" + nombre + id + "se reproduce con" + reproduccion);
+        System.out.println(Animal_literal + nombre + id + "se reproduce con" + reproduccion);
     }
 
     public void registrarCuidados (String cuidados) {
-        System.out.println("El animal" +nombre + id + "necesita" + cuidados);
+        System.out.println(Animal_literal +nombre + id + "necesita" + cuidados);
     }
 
     public void registrarEnfermedades (String enfermedades) {
-        System.out.println("El animal" + nombre + id + "puede sufrir de" + enfermedades);
+        System.out.println(Animal_literal + nombre + id + "puede sufrir de" + enfermedades);
     }
 
     public void registrarVacunas (String vacunas) {
-        System.out.println("El animal" + nombre + id + "necesita vacunarse de" + vacunas);
+        System.out.println(Animal_literal + nombre + id + "necesita vacunarse de" + vacunas);
     }
 
     public void registrarHabitat (String habitat) {
-        System.out.println("El animal" + nombre + "vive en" + habitat);
+        System.out.println(Animal_literal + nombre + "vive en" + habitat);
     }
 
     public void registrarPeso (String peso) {
-        System.out.println("El animal" + nombre + id + "pesa" + peso);
+        System.out.println(Animal_literal + nombre + id + "pesa" + peso);
     }
 
     public void registrarAltura (String altura) {
-        System.out.println("El animal" + nombre + id + "mide" + altura);
+        System.out.println(Animal_literal + nombre + id + "mide" + altura);
     }
 
     public void registrarEdad (String edad) {
-        System.out.println("El animal" + nombre + id + "tiene" + edad);
+        System.out.println(Animal_literal + nombre + id + "tiene" + edad);
     }
 
     public void registrarColor (String color) {
-        System.out.println("El animal" + nombre + id + "es de color" + color);
+        System.out.println(Animal_literal + nombre + id + "es de color" + color);
     }
 
     public void registrarRaza (String raza) {
-        System.out.println("El animal" + nombre + id + "es de raza" + raza);
+        System.out.println(Animal_literal + nombre + id + "es de raza" + raza);
     }
 
     public void registrarEspecie (String especie) {
-        System.out.println("El animal" + nombre + id + "es de especie" + especie);
+        System.out.println(Animal_literal + nombre + id + "es de especie" + especie);
     }
 
     public void regsitrarNombre (String nombre) {
-        System.out.println("El animal" + nombre + id + "se llama" + nombre);
+        System.out.println(Animal_literal + nombre + id + "se llama" + nombre);
     }
 
     public void registrarSexo (String sexo) {
-        System.out.println("El animal" + nombre + id + "es de sexo" + sexo);
+        System.out.println(Animal_literal + nombre + id + "es de sexo" + sexo);
     }
 
     public void registrarTipo (String tipo) {
-        System.out.println("El animal" + nombre + id + "es de tipo" + tipo);
+        System.out.println(Animal_literal + nombre + id + "es de tipo" + tipo);
     }
 
     public void registrarId (int id) {
-        System.out.println("El animal" + nombre + "tiene el id" + id);
+        System.out.println(Animal_literal + nombre + "tiene el id" + id);
     }
 
 }

@@ -1,4 +1,4 @@
-package Cuidado_de_los_animales;
+package cuidado_de_los_animales;
 
 public class Animales_aviarios extends Animales{
 
@@ -46,6 +46,9 @@ public class Animales_aviarios extends Animales{
             this.garras = garras;
         }
 
+        public String getTipo_aviario() {
+            return this.tipo_aviario;
+        }
         public void setTipo_aviario(String tipo_aviario) {
             this.tipo_aviario = tipo_aviario;
         }

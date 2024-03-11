@@ -1,4 +1,4 @@
-package Cuidado_de_los_animales;
+package cuidado_de_los_animales;
 
 public class Animales_acuaticos  extends Animales{
 
@@ -46,6 +46,9 @@ public class Animales_acuaticos  extends Animales{
         this.caparazon = caparazon;
     }
 
+    public String getTipo_agua() {
+        return this.tipo_agua;
+    }
     public void setTipo_agua(String tipo_agua) {
         this.tipo_agua = tipo_agua;
     }
