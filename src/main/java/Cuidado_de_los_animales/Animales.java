@@ -61,11 +61,6 @@ public class Animales {
     }
 
     @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-    }
-
-    @Override
     public int hashCode() {
         return super.hashCode();
     }
@@ -197,16 +192,16 @@ public class Animales {
         this.id = id;
     }
 
-    public void buenasalud (boolean salud) {
-        if (salud == true) {
+    public void buenasalud () {
+        if (salud) {
             System.out.println("El animal" + nombre + id  + "se encuentra en buen estado de salud");
         } else {
             System.out.println("El animal" + nombre + id + "se encuentra en mal estado de salud");
         }
     }
 
-    public void buencomportamiento (boolean comportamiento) {
-        if (comportamiento == true) {
+    public void buencomportamiento () {
+        if (comportamiento) {
             System.out.println("El animal" + nombre + id  + "tiene buen comportamiento");
         } else {
             System.out.println("El animal" + nombre + id + "tiene mal comportamiento");
