@@ -4,7 +4,7 @@ public class Habitats {
 
     //Caracteristicas de los habitats
     private String nombre;
-    private String dimensiones;
+    public String dimensiones;
     private String ubicacion;
     private String tipo;
     private String temperatura;

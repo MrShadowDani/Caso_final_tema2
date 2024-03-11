@@ -1,0 +1,15 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şÜàã8ÛÉôñâ1J$a96e128d-2cd9-47b1-b152-5435495c9fac
+„	java:S107"BConstructor has 13 parameters, which is greater than 7 authorized.(¶º›8âÉôñâ1J$96044422-4d5b-4727-90cd-7198fb94952f
+•
+java:S2975,"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8èÉôñâ1J$b0804653-3a62-4a4a-9393-00405ad575ac
+j
+java:S1185,"(Remove this method to simply inherit it.(™”” 8èÉôñâ1J$b3a9cda2-1052-4c8d-ae4e-cd85feddc1bc
+
+java:S57386"FDon't override this deprecated method, it has been marked for removal.(ÖÒ˜Ùùÿÿÿÿ8êÉôñâ1J$c8b55069-9def-4375-ba58-5392070ddaef
+p
+java:S11856"(Remove this method to simply inherit it.(ÖÒ˜Ùùÿÿÿÿ8êÉôñâ1J$7a562ab1-7529-4609-80d8-a2f5c56f8251
+u
+java:S11136"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8ëÉôñâ1J$589411af-33c8-4efb-8e5e-513d726e155f
+
+java:S57387"HRemove this call to a deprecated method, it has been marked for removal.(¯¶ú“üÿÿÿÿ8ëÉôñâ1J$3001504c-9e42-451f-91f7-f30c32af33a4

@@ -12,8 +12,8 @@ public class Habitats_acuaticos extends Habitats{
     private String cantidad_de_agua;
     private List<Animales_acuaticos> animales;
 
-public Habitats_acuaticos(String nombre, String salinidad, String profundidad, String tipo_de_agua, String calidad_del_agua, String cantidad_de_agua, List<Animales_acuaticos> animales) {
-        super(nombre,);
+public Habitats_acuaticos(String nombre, String dimensiones, String ubicacion, String tipo, String temperatura, String humedad, String vegetacion, String fauna, String estado, int id, int capacidadMaxima, int numAnimales, String especieDominante, String salinidad, String profundidad, String tipo_de_agua, String calidad_del_agua, String cantidad_de_agua, List<Animales_acuaticos> animales) {
+        super(nombre, dimensiones, ubicacion, tipo, temperatura, humedad, vegetacion, fauna, estado, id, capacidadMaxima, numAnimales, especieDominante);
         this.salinidad = salinidad;
         this.profundidad = profundidad;
         this.tipo_de_agua = tipo_de_agua;

@@ -5,18 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b506b30d-c7b6-4cc0-9a2f-668ab36d505e" name="Changes" comment="Avances">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1ac1379798cdd0f514c571167afadc3125ce61a6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1ac1379798cdd0f514c571167afadc3125ce61a6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cuidado_de_los_animales/Animales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuidado_de_los_animales/Animales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cuidado_de_los_animales/Animales_acuaticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuidado_de_los_animales/Animales_acuaticos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cuidado_de_los_animales/Animales_aviarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuidado_de_los_animales/Animales_aviarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cuidado_de_los_animales/Animales_terrestres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuidado_de_los_animales/Animales_terrestres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Gestion_de_habitats/Habitats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gestion_de_habitats/Habitats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Gestion_de_habitats/Habitats_acuaticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gestion_de_habitats/Habitats_acuaticos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Gestion_de_habitats/Habitats_aviarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gestion_de_habitats/Habitats_aviarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Gestion_de_habitats/Habitats_terrestres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gestion_de_habitats/Habitats_terrestres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b6f241f906df64504bd5a1805c1c6e2e66da9d7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f17bcbfa509d845ed3931a85d1f6d0598b872da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/390968ccf8ceb0a2368dea1beda0c4edc08d67fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39319996fa77ad3aadbe4c137c16de7097abe9d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/450973b6ce75a5e217e36ad1ae7c7f869c6badab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6ba7d39936b97514ac7071a1ae649e32876fa500" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75f16f5cf5e8b8f251a00f0dffe4a333af23e0ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8755c461ef70ccbc59d5ae5b2625697627156ad4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89c0d4e88edc45a7be91474249e69782fea73ef7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b732b1b8d6152a60a1d961483362444de6524cab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c836f5d680f8c7b6bdc749183ab00648b8dbf338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e92c94136cd2705037cbeea6d36bd62c9ae6d147" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/ee3d07bc2d653c844b739e28b77e4d083d73dcd1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/b/1b6f241f906df64504bd5a1805c1c6e2e66da9d7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/f/2f17bcbfa509d845ed3931a85d1f6d0598b872da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/390968ccf8ceb0a2368dea1beda0c4edc08d67fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/39319996fa77ad3aadbe4c137c16de7097abe9d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/5/450973b6ce75a5e217e36ad1ae7c7f869c6badab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/b/6ba7d39936b97514ac7071a1ae649e32876fa500" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/5/75f16f5cf5e8b8f251a00f0dffe4a333af23e0ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/8755c461ef70ccbc59d5ae5b2625697627156ad4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/9/89c0d4e88edc45a7be91474249e69782fea73ef7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/7/b732b1b8d6152a60a1d961483362444de6524cab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c836f5d680f8c7b6bdc749183ab00648b8dbf338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/9/e92c94136cd2705037cbeea6d36bd62c9ae6d147" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/e/ee3d07bc2d653c844b739e28b77e4d083d73dcd1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gestion_de_habitats/Habitats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gestion_de_habitats/Habitats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gestion_de_habitats/Habitats_acuaticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gestion_de_habitats/Habitats_acuaticos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +110,7 @@
       <workItem from="1710171138205" duration="76000" />
       <workItem from="1710171230634" duration="2891000" />
       <workItem from="1710174135185" duration="83000" />
-      <workItem from="1710174227036" duration="3673000" />
+      <workItem from="1710174227036" duration="4030000" />
     </task>
     <task id="LOCAL-00001" summary="Avances">
       <option name="closed" value="true" />
@@ -222,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710173436958</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1710177975465</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710177975465</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

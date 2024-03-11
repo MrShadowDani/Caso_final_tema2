@@ -1,0 +1,14 @@
+
+„	java:S107"BConstructor has 13 parameters, which is greater than 7 authorized.(¶º›8âÉôñâ1J$b627a0f8-c67b-456d-8ab3-97b184735d89
+•
+java:S2975,"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8èÉôñâ1J$5aabc320-76c9-4c36-9f78-d02f300114b5
+j
+java:S1185,"(Remove this method to simply inherit it.(™”” 8èÉôñâ1J$c7bb8ce0-0baf-4950-96fc-340f6f9c88b6
+
+java:S57386"FDon't override this deprecated method, it has been marked for removal.(ÖÒ˜Ùùÿÿÿÿ8êÉôñâ1J$088af2ae-6b17-465d-9180-8f8aff552947
+p
+java:S11856"(Remove this method to simply inherit it.(ÖÒ˜Ùùÿÿÿÿ8êÉôñâ1J$abcf1a8f-c77a-4421-b118-366e28c1bf16
+u
+java:S11136"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8ëÉôñâ1J$db0a5bbd-1dc2-430d-82ed-222620e5cf00
+
+java:S57387"HRemove this call to a deprecated method, it has been marked for removal.(¯¶ú“üÿÿÿÿ8ëÉôñâ1J$adf1fca3-70ae-4f3d-8146-ba90d7baa76f
