@@ -6,16 +6,16 @@ public class AnimalesAviarios extends Animales{
         private boolean plumaje;
         private boolean alas;
         private boolean garras;
-        private String tipo_aviario;
+        private String tipoAviario;
 
         //Constructor
-        public AnimalesAviarios(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean pico, boolean plumaje, boolean alas, boolean garras, String tipo_aviario) {
+        public AnimalesAviarios(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean pico, boolean plumaje, boolean alas, boolean garras, String tipoAviario) {
             super(nombre, especie, raza, color, sexo, edad, peso, altura, tipo, habitat, alimentacion, reproduccion, cuidados, enfermedades, vacunas, salud, comportamiento, id);
             this.pico = pico;
             this.plumaje = plumaje;
             this.alas = alas;
             this.garras = garras;
-            this.tipo_aviario = tipo_aviario;
+            this.tipoAviario = tipoAviario;
         }
 
         //Getters y setters de los atributos
@@ -47,11 +47,11 @@ public class AnimalesAviarios extends Animales{
             this.garras = garras;
         }
 
-        public String getTipo_aviario() {
-            return this.tipo_aviario;
+        public String getTipoAviario() {
+            return this.tipoAviario;
         }
-        public void setTipo_aviario(String tipo_aviario) {
-            this.tipo_aviario = tipo_aviario;
+        public void setTipoAviario(String tipoAviario) {
+            this.tipoAviario = tipoAviario;
         }
 
 }

@@ -6,16 +6,16 @@ public class AnimalesTerrestres extends Animales{
     private boolean cola;
     private boolean pelo;
     private boolean garras;
-    private String tipo_terrestre;
+    private String tipoTerrestre;
 
     //Constructor
-    public AnimalesTerrestres(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean patas, boolean cola, boolean pelo, boolean garras, String tipo_terrestre) {
+    public AnimalesTerrestres(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean patas, boolean cola, boolean pelo, boolean garras, String tipoTerrestre) {
         super(nombre, especie, raza, color, sexo, edad, peso, altura, tipo, habitat, alimentacion, reproduccion, cuidados, enfermedades, vacunas, salud, comportamiento, id);
         this.patas = patas;
         this.cola = cola;
         this.pelo = pelo;
         this.garras = garras;
-        this.tipo_terrestre = tipo_terrestre;
+        this.tipoTerrestre = tipoTerrestre;
     }
 
     //Getters y setters de los atributos
@@ -47,11 +47,11 @@ public class AnimalesTerrestres extends Animales{
         this.garras = garras;
     }
 
-    public String getTipo_terrestre() {
-        return this.tipo_terrestre;
+    public String gettipoTerrestre() {
+        return this.tipoTerrestre;
     }
-    public void setTipo_terrestre(String tipo_terrestre) {
-        this.tipo_terrestre = tipo_terrestre;
+    public void settipoTerrestre(String tipoTerrestre) {
+        this.tipoTerrestre = tipoTerrestre;
     }
 
 }

@@ -6,16 +6,16 @@ public class AnimalesAcuaticos extends Animales{
     private boolean branquias;
     private boolean escamas;
     private boolean caparazon;
-    private String tipo_agua;
+    private String tipoAgua;
 
     //Constructor
-    public AnimalesAcuaticos(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean aletas, boolean branquias, boolean escamas, boolean caparazon, String tipo_agua) {
+    public AnimalesAcuaticos(String nombre, String especie, String raza, String color, String sexo, String edad, String peso, String altura, String tipo, String habitat, String alimentacion, String reproduccion, String cuidados, String enfermedades, String vacunas, boolean salud, boolean comportamiento, int id, boolean aletas, boolean branquias, boolean escamas, boolean caparazon, String tipoAgua) {
         super(nombre, especie, raza, color, sexo, edad, peso, altura, tipo, habitat, alimentacion, reproduccion, cuidados, enfermedades, vacunas, salud, comportamiento, id);
         this.aletas = aletas;
         this.branquias = branquias;
         this.escamas = escamas;
         this.caparazon = caparazon;
-        this.tipo_agua = tipo_agua;
+        this.tipoAgua = tipoAgua;
     }
 
     //Getters y setters de los atributos
@@ -47,11 +47,11 @@ public class AnimalesAcuaticos extends Animales{
         this.caparazon = caparazon;
     }
 
-    public String getTipo_agua() {
-        return this.tipo_agua;
+    public String getTipoAgua() {
+        return this.tipoAgua;
     }
-    public void setTipo_agua(String tipo_agua) {
-        this.tipo_agua = tipo_agua;
+    public void setTipoAgua(String tipoAgua) {
+        this.tipoAgua = tipoAgua;
     }
 
 }
