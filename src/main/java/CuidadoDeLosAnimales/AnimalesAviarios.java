@@ -18,6 +18,27 @@ public class AnimalesAviarios extends Animales{
             this.tipoAviario = tipoAviario;
         }
 
+        // Constructor de copia
+        public AnimalesAviarios(AnimalesAviarios original) {
+            super(original);
+            this.pico = original.pico;
+            this.plumaje = original.plumaje;
+            this.alas = original.alas;
+            this.garras = original.garras;
+            this.tipoAviario = original.tipoAviario;
+        }
+
+    //Datos guardados en la base de datos
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
         //Getters y setters de los atributos
         public boolean isPico() {
             return pico;
@@ -54,4 +75,12 @@ public class AnimalesAviarios extends Animales{
             this.tipoAviario = tipoAviario;
         }
 
+        //Metodo para mostrar los datos de los animales aviarios
+        public void mostrarDatosAviarios(){
+            System.out.println("Pico: " + isPico());
+            System.out.println("Plumaje: " + isPlumaje());
+            System.out.println("Alas: " + isAlas());
+            System.out.println("Garras: " + isGarras());
+            System.out.println("Tipo de aviario: " + getTipoAviario());
+        }
 }

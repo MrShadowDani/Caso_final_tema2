@@ -290,4 +290,25 @@ public class Animales {
         System.out.println(animalLiteral + nombre + "tiene el id" + id);
     }
 
+    //Metodo para mostrar los datos de animales
+    public void mostrarAnimales(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Especie: " + especie);
+        System.out.println("Raza: " + raza);
+        System.out.println("Color: " + color);
+        System.out.println("Sexo: " + sexo);
+        System.out.println("Edad: " + edad);
+        System.out.println("Peso: " + peso);
+        System.out.println("Altura: " + altura);
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Habitat: " + habitat);
+        System.out.println("Alimentacion: " + alimentacion);
+        System.out.println("Reproduccion: " + reproduccion);
+        System.out.println("Cuidados: " + cuidados);
+        System.out.println("Enfermedades: " + enfermedades);
+        System.out.println("Vacunas: " + vacunas);
+        System.out.println("Salud: " + salud);
+        System.out.println("Comportamiento: " + comportamiento);
+        System.out.println("Id: " + id);
+    }
 }

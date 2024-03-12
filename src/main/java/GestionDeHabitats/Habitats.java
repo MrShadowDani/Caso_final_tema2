@@ -168,6 +168,22 @@ public class Habitats {
     public void setEspecieDominante(String especieDominante) {
         this.especieDominante = especieDominante;
     }
-}
 
+    //Mostrar datos de los habitats
+    public void mostrarHabitat(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Descripcion: " + descripcion);
+        System.out.println("Dimensiones: " + dimensiones);
+        System.out.println("Ubicacion: " + ubicacion);
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Temperatura: " + temperatura);
+        System.out.println("Humedad: " + humedad);
+        System.out.println("Vegetacion: " + vegetacion);
+        System.out.println("Fauna: " + fauna);
+        System.out.println("Estado: " + estado);
+        System.out.println("ID: " + id);
+        System.out.println("Capacidad Maxima: " + capacidadMaxima);
+        System.out.println("Numero de animales: " + numAnimales);
+    }
+}
 

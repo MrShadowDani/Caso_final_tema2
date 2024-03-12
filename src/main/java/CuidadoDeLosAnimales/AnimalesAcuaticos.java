@@ -18,6 +18,27 @@ public class AnimalesAcuaticos extends Animales{
         this.tipoAgua = tipoAgua;
     }
 
+    // Constructor de copia
+    public AnimalesAcuaticos(AnimalesAcuaticos original) {
+        super(original);
+        this.aletas = original.aletas;
+        this.branquias = original.branquias;
+        this.escamas = original.escamas;
+        this.caparazon = original.caparazon;
+        this.tipoAgua = original.tipoAgua;
+    }
+
+    //Datos guardados en la base de datos
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     //Getters y setters de los atributos
     public boolean isAletas() {
         return aletas;
@@ -54,4 +75,12 @@ public class AnimalesAcuaticos extends Animales{
         this.tipoAgua = tipoAgua;
     }
 
+    //Metodo para mostrar los datos de los animales acuaticos
+    public void mostrarDatosAcuaticos(){
+        System.out.println("Aletas: " + this.isAletas());
+        System.out.println("Branquias: " + this.isBranquias());
+        System.out.println("Escamas: " + this.isEscamas());
+        System.out.println("Caparazon: " + this.isCaparazon());
+        System.out.println("Tipo de agua: " + this.getTipoAgua());
+    }
 }

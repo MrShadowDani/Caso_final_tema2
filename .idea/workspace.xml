@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b506b30d-c7b6-4cc0-9a2f-668ab36d505e" name="Changes" comment="Avances">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Pedidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Proveedores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Recursos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Trabajadores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/InformacionDeHabitatsYAnimales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/ToursPersonalizados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/Visitantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/MantenimientoYReparaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Seguridad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CuidadoDeLosAnimales/Animales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CuidadoDeLosAnimales/Animales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CuidadoDeLosAnimales/AnimalesAcuaticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CuidadoDeLosAnimales/AnimalesAcuaticos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CuidadoDeLosAnimales/AnimalesAviarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CuidadoDeLosAnimales/AnimalesAviarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CuidadoDeLosAnimales/AnimalesTerrestres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CuidadoDeLosAnimales/AnimalesTerrestres.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/Habitats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/Habitats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/HabitatsAcuaticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/HabitatsAcuaticos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/HabitatsAviarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/HabitatsAviarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/HabitatsTerrestres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/HabitatsTerrestres.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +89,7 @@
       <workItem from="1710171230634" duration="2891000" />
       <workItem from="1710174135185" duration="83000" />
       <workItem from="1710174227036" duration="5981000" />
-      <workItem from="1710229895828" duration="6101000" />
+      <workItem from="1710229895828" duration="7616000" />
     </task>
     <task id="LOCAL-00001" summary="Avances">
       <option name="closed" value="true" />
@@ -258,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710231372796</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1710236309847</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710236309847</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

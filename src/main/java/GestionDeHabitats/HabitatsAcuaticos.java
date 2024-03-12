@@ -25,7 +25,7 @@ public class HabitatsAcuaticos extends Habitats{
         this.animales = animales;
     }
 
-    //Constructor de copias
+    //Constructor de copia
     public HabitatsAcuaticos(HabitatsAcuaticos original) {
         super(original);
         this.salinidad = original.salinidad;
@@ -34,6 +34,17 @@ public class HabitatsAcuaticos extends Habitats{
         this.calidadDelAgua = original.calidadDelAgua;
         this.cantidadDeAgua = original.cantidadDeAgua;
         this.animales = original.animales != null ? new ArrayList<>(original.animales) : null;
+    }
+
+    //Datos guardados en la base de datos
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
     }
 
     //Getters y setters
@@ -77,6 +88,26 @@ public class HabitatsAcuaticos extends Habitats{
     }
     public void setAnimales(List<AnimalesAcuaticos> animales) {
         this.animales = animales;
+    }
+
+    public void agregarAnimal(AnimalesAcuaticos animal){
+        animales.add(animal);
+    }
+    public void eliminarAnimal(AnimalesAcuaticos animal){
+        animales.remove(animal);
+    }
+    public void moverAnimal(AnimalesAcuaticos animal){
+        animales.set(animales.indexOf(animal), animal);
+    }
+
+    //Mostrar datos de los habitats acuaticos
+    public void mostrarDatosDeHabitatsAcuaticos(){
+        System.out.println("Salinidad: " + getSalinidad());
+        System.out.println("Profundidad: " + getProfundidad());
+        System.out.println("Tipo de agua: " + gettipoDeAgua());
+        System.out.println("La calidad del agua es: " + getcalidadDelAgua());
+        System.out.println("La cantidad de agua es: " + getcantidadDeAgua());
+        System.out.println("Animales: " + getAnimales());
     }
 }
 

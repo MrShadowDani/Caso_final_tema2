@@ -1,6 +1,7 @@
 package GestionDeHabitats;
 
 import CuidadoDeLosAnimales.AnimalesAviarios;
+import CuidadoDeLosAnimales.AnimalesTerrestres;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +22,7 @@ public class HabitatsAviarios extends Habitats{
         this.animales = animales;
     }
 
-    //Constructor de copias
+    //Constructor de copia
     public HabitatsAviarios(HabitatsAviarios original) {
         super(original);
         this.alturaMaxima = original.alturaMaxima;
@@ -30,8 +31,18 @@ public class HabitatsAviarios extends Habitats{
         this.animales = original.animales != null ? new ArrayList<>(original.animales) : null;
     }
 
-    //Getters y setters
+    //Datos guardados en la base de datos
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    //Getters y setters
     public String getAlturaMaxima() {
         return alturaMaxima;
     }
@@ -58,5 +69,23 @@ public class HabitatsAviarios extends Habitats{
     }
     public void setAnimales(List<AnimalesAviarios> animales) {
         this.animales = animales;
+    }
+
+    public void agregarAnimal(AnimalesAviarios animal){
+        animales.add(animal);
+    }
+    public void eliminarAnimal(AnimalesAviarios animal){
+        animales.remove(animal);
+    }
+    public void moverAnimal(AnimalesAviarios animal){
+        animales.set(animales.indexOf(animal), animal);
+    }
+
+    //Mostrar datos de los habitats aviarios
+    public void mostrarDatosDeHabitatsAviarios(){
+        System.out.println("Altura maxima: " + getAlturaMaxima());
+        System.out.println("Cantidad de arboles: " + getcatidadDeArboles());
+        System.out.println("Cantidad de nidos: " + getCantidadDeNidos());
+        System.out.println("Animales: " + getAnimales());
     }
 }

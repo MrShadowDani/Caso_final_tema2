@@ -18,6 +18,27 @@ public class AnimalesTerrestres extends Animales{
         this.tipoTerrestre = tipoTerrestre;
     }
 
+    // Constructor de copia
+    public AnimalesTerrestres(AnimalesTerrestres original) {
+        super(original);
+        this.patas = original.patas;
+        this.cola = original.cola;
+        this.pelo = original.pelo;
+        this.garras = original.garras;
+        this.tipoTerrestre = original.tipoTerrestre;
+    }
+
+    //Datos guardados en la base de datos
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     //Getters y setters de los atributos
     public boolean isPatas() {
         return patas;
@@ -54,4 +75,12 @@ public class AnimalesTerrestres extends Animales{
         this.tipoTerrestre = tipoTerrestre;
     }
 
+    //Metodo para mostrar los datos de los animales terrestres
+    public void mostrarDatos(){
+        System.out.println("Patas: " + isPatas());
+        System.out.println("Cola: " + isCola());
+        System.out.println("Pelo: " + isPelo());
+        System.out.println("Garras: " + isGarras());
+        System.out.println("Tipo Terrestre: " + gettipoTerrestre());
+    }
 }

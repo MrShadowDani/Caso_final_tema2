@@ -135,7 +135,4 @@ public class Pedidos {
         System.out.println("Telefono: " + telefono);
         System.out.println("Estado: " + estado);
     }
-
-
-
 }
