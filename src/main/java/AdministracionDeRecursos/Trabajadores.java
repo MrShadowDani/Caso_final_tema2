@@ -12,10 +12,10 @@ public class Trabajadores {
     private String horario;
     private final List<Pedidos> pedidos;
     private final List<Proveedores> proveedores;
-    private final List<Recursos> recursos;
+    private final List<Productos> productos;
 
     //Constructor
-    public Trabajadores(String nombre, String apellido, String DNI, String telefono, String especialidad, String horario, List<Pedidos> pedidos, List<Proveedores> proveedores, List<Recursos> recursos) {
+    public Trabajadores(String nombre, String apellido, String DNI, String telefono, String especialidad, String horario, List<Pedidos> pedidos, List<Proveedores> proveedores, List<Productos> productos) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.DNI = DNI;
@@ -24,7 +24,7 @@ public class Trabajadores {
         this.horario = horario;
         this.pedidos = pedidos;
         this.proveedores = proveedores;
-        this.recursos = recursos;
+        this.productos = productos;
     }
 
     // Constructor de copia
@@ -37,15 +37,10 @@ public class Trabajadores {
         this.horario = original.horario;
         this.pedidos = new ArrayList<>(original.pedidos);
         this.proveedores = new ArrayList<>(original.proveedores);
-        this.recursos = new ArrayList<>(original.recursos);
+        this.productos = new ArrayList<>(original.productos);
     }
 
     //Datos guardados en la base de datos
-    @Override
-    public String toString() {
-        return "Animal []";
-    }
-
     @Override
     public boolean equals(Object obj) {
         return super.equals(obj);
@@ -56,7 +51,7 @@ public class Trabajadores {
         return super.hashCode();
     }
 
-    //Metodos para manejar pedidos, proveedores y recursos
+    //Metodos para manejar pedidos, proveedores y productos
        public void agregarPedido(Pedidos pedido){
             pedidos.add(pedido);
         }
@@ -71,11 +66,11 @@ public class Trabajadores {
             proveedores.remove(proveedor);
         }
 
-        public void agregarRecurso(Recursos recurso){
-            recursos.add(recurso);
+        public void agregarProducto(Productos producto){
+            productos.add(producto);
         }
-        public void eliminarRecurso(Recursos recurso){
-            recursos.remove(recurso);
+        public void eliminarProducto(Productos producto){
+            productos.remove(producto);
         }
 
     //Getters y Setters

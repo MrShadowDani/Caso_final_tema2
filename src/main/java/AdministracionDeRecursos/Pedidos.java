@@ -43,11 +43,6 @@ public class Pedidos {
 
     //Datos guardados en la base de datos
     @Override
-    public String toString() {
-        return "Animal []";
-    }
-
-    @Override
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
