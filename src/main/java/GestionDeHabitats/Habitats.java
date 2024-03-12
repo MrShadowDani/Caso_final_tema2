@@ -60,15 +60,15 @@ public class Habitats {
         return "Habitat []";
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
+        @Override
+        public boolean equals(Object obj) {
+            return super.equals(obj);
+        }
 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
+        @Override
+        public int hashCode() {
+            return super.hashCode();
+        }
 
     //Getters y Setters
     public String getNombre() {

@@ -24,9 +24,8 @@ public class Zoologico {
                 System.out.println("1. Administración de recursos");
                 System.out.println("2. Cuidado de los animales");
                 System.out.println("3. Gestión de habitats");
-                System.out.println("4. Interacción con visitantes");
-                System.out.println("5. Mantenimiento y seguridad");
-                System.out.println("6. Salir");
+                System.out.println("4. Mantenimiento y seguridad");
+                System.out.println("5. Salir");
 
                 String option = scanner.nextLine();
 
@@ -145,10 +144,113 @@ public class Zoologico {
                         boolean comportamientoAnimal = scanner.nextBoolean();
                         System.out.println("Indique el id del animal");
                         int idAnimal = scanner.nextInt();
+                        if(saludAnimal == true){
+                            System.out.println("El animal está sano");
+                        }else{
+                            System.out.println("El animal está enfermo");
+                        }if (comportamientoAnimal == true){
+                            System.out.println("El animal se comporta bien");
+                        }else{
+                            System.out.println("El animal se comporta mal");
+                        }
+                        break;
 
+                    case "3":
+                        System.out.println("Menu de gestion de habitats");
+                        System.out.println("Indique el nombre del habitat");
+                        String nombreHabitat = scanner.nextLine();
+                        System.out.println("Indique la descripcion del habitat");
+                        String descripcionHabitat = scanner.nextLine();
+                        System.out.println("Indique las dimensiones del habitat");
+                        String dimensionesHabitat = scanner.nextLine();
+                        System.out.println("Indique la ubicacion del habitat");
+                        String ubicacionHabitat = scanner.nextLine();
+                        System.out.println("Indique el tipo del habitat");
+                        String tipoHabitat = scanner.nextLine();
+                        System.out.println("Indique la temperatura del habitat");
+                        String temperaturaHabitat = scanner.nextLine();
+                        System.out.println("Indique la humedad del habitat");
+                        String humedadHabitat = scanner.nextLine();
+                        System.out.println("Indique la vegetacion del habitat");
+                        String vegetacionHabitat = scanner.nextLine();
+                        System.out.println("Indique la fauna del habitat");
+                        String faunaHabitat = scanner.nextLine();
+                        System.out.println("Indique el estado del habitat");
+                        String estadoHabitat = scanner.nextLine();
+                        System.out.println("Indique el id del habitat");
+                        int idHabitat = scanner.nextInt();
+                        System.out.println("Indique la capacidad maxima del habitat");
+                        int capacidadMaximaHabitat = scanner.nextInt();
+                        System.out.println("Indique el numero de animales del habitat");
+                        int numAnimalesHabitat = scanner.nextInt();
+                        System.out.println("Indique la especie dominante del habitat");
+                        String especieDominanteHabitat = scanner.nextLine();
+                        System.out.println("1. Habitat Acuatico");
+                        System.out.println("2. Habitat Terrestre");
+                        System.out.println("3. Habitat Aviario");
 
+                        String option3 = scanner.nextLine();
+
+                        switch (option3){
+                            case "1":
+                                System.out.println("Menu de gestion de habitats acuaticos");
+                                System.out.println("Indique el salinidad del habitat");
+                                String salinidad = scanner.nextLine();
+                                System.out.println("Indique la profundidad del habitat");
+                                String profundidad = scanner.nextLine();
+                                System.out.println("Indique el tipo de agua");
+                                String tipoAgua = scanner.nextLine();
+                                System.out.println("Indique el calidad de agua");
+                                String calidadAgua = scanner.nextLine();
+                                System.out.println("Indique el cantidad de agua");
+                                String cantidadAgua = scanner.nextLine();
+                                break;
+                            case "2":
+                                System.out.println("Menu de gestion de habitats terrestres");
+                                System.out.println("Indique el tipo de suelo");
+                                String tipoSuelo = scanner.nextLine();
+                                System.out.println("Indique el cantidad de cuevas");
+                                String cantidadCuevas = scanner.nextLine();
+                                break;
+                            case "3":
+                                System.out.println("Menu de gestion de habitats aviarios");
+                                System.out.println("Indique la altura de maxima");
+                                String alturaMaxima = scanner.nextLine();
+                                System.out.println("Indique la cantidad de arboles");
+                                String cantidadArboles = scanner.nextLine();
+                                System.out.println("Indique la cantidad de nidos");
+                                String cantidadNidos = scanner.nextLine();
+                                break;
+                        }
+                    case "4":
+                        System.out.println("Menu de mantenimiento y seguridad");
+                        System.out.println("¿Qué quieres hacer?");
+                        System.out.println("1. Instalaciones");
+                        System.out.println("2. Mantenimientos");
+                        System.out.println("3. Reparaciones");
+                        System.out.println("4. Seguridad");
+                        System.out.println("5. Salir");
+
+                        String option4 = scanner.nextLine();
+
+                        switch (option4){
+                            case "1":
+                                System.out.println("Menu de mantenimiento de instalaciones");
+                                System.out.println("Indique el nombre de la instalacion");
+                                String nombreInstalacion = scanner.nextLine();
+                                System.out.println("Indique la ubicacion de la instalacion");
+                                String ubicacionInstalacion = scanner.nextLine();
+                                System.out.println("Indique el estado de la instalacion");
+                                String estadoInstalacion = scanner.nextLine();
+                                System.out.println("Indique la fecha del ultimo mantenimiento");
+                                String fechaUltimoMantenimiento = scanner.nextLine();
+                                break;
+
+                            case "2":
+
+                        }
+                    }
                 }
         }
     }
  }
-}
