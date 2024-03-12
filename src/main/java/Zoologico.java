@@ -1,15 +1,7 @@
-import AdministracionDeRecursos.*;
-import CuidadoDeLosAnimales.*;
-import GestionDeHabitats.*;
-import InteraccionConVisitantes.*;
-import MantenimientoYSeguridad.*;
-
-import java.util.List;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Zoologico {
-    public static void zoologico (String[] args) {
+    public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bienvenido al Zoologico Arapleshhh");
         String nombre = scanner.nextLine();
@@ -104,6 +96,10 @@ public class Zoologico {
                                 String telefonoPedido = scanner.nextLine();
                                 System.out.println("Estado del pedido");
                                 String estadoPedido = scanner.nextLine();
+                                break;
+
+                            case "5":
+                                exit = true;
                                 break;
                         }
                     case "2":
@@ -247,10 +243,119 @@ public class Zoologico {
                                 break;
 
                             case "2":
+                                System.out.println ("Menu de mantenimiento de mantenimientos");
+                                System.out.println("Indique la instalcion del mantenimiento");
+                                String instalacionMantenimiento = scanner.nextLine();
+                                System.out.println("Indique la fecha programada del mantenimiento");
+                                String fechaProgramadaMantenimiento = scanner.nextLine();
+                                System.out.println("Indique el tipo del mantenimiento");
+                                String tipoMantenimiento = scanner.nextLine();
+                                System.out.println("Indique el estado del mantenimiento");
+                                String estadoMantenimiento = scanner.nextLine();
+                                System.out.println("Indique la descripcion del mantenimiento");
+                                String descripcionMantenimiento = scanner.nextLine();
+                                break;
 
+                            case "3":
+                                System.out.println("Menu de mantenimiento de reparaciones");
+                                System.out.println("Indique la instalcion de la reparacion");
+                                String instalacionReparacion = scanner.nextLine();
+                                System.out.println("Indique la fecha programada de la reparacion");
+                                String fechaProgramadaReparacion = scanner.nextLine();
+                                System.out.println("Indique el estado de la reparacion");
+                                String estadoReparacion = scanner.nextLine();
+                                System.out.println("Indique la descripcion de la reparacion");
+                                String descripcionReparacion = scanner.nextLine();
+                                break;
+
+                            case "4":
+                                System.out.println("Menu de mantenimiento de seguridad");
+                                System.out.println("Indique la ubicacion de la camara");
+                                String ubicacionCamara = scanner.nextLine();
+                                System.out.println("Indique el estado de la camara");
+                                String estadoCamara = scanner.nextLine();
+                                System.out.println("Indique la ubicacion del sensor");
+                                String ubicacionSensor = scanner.nextLine();
+                                System.out.println("Indique el estado del sensor");
+                                String estadoSensor = scanner.nextLine();
+                                break;
+
+                            case "5":
+                                exit = true;
+                                break;
                         }
+                    case "5":
+                        exit = true;
+                        break;
+                    default:
+                        System.out.println("Opción no válida. Por favor, seleccione una opción válida");
+                        System.out.println("--------------------");
+                        break;
                     }
                 }
+        } else if (userType.equalsIgnoreCase("visitante")) {
+            System.out.println("Bienvenido al Zoologico Arapleshhh");
+            System.out.println("¿Qué quieres hacer?");
+            System.out.println("1. Información de habitats y animales");
+            System.out.println("2. Tours personalizados");
+            System.out.println("3. Salir");
+
+            String option5 = scanner.nextLine();
+
+            switch (option5){
+                case "1":
+                    System.out.println("Información de habitats y animales");
+                    System.out.println("¿Qué quieres hacer?");
+                    System.out.println("1. Mostrar información de habitats");
+                    System.out.println("2. Mostrar información de animales");
+                    System.out.println("3. Salir");
+
+                    String option6 = scanner.nextLine();
+
+                    switch (option6){
+                        case "1":
+                            System.out.println("Mostrar información de habitats");
+                            System.out.println("Nombre: Habitat 1");
+                            System.out.println("Descripcion: Habitat acuatico");
+                            System.out.println("Tipo: Acuatico");
+                            System.out.println("Temperatura: 25");
+                            System.out.println("Humedad: 80");
+                            System.out.println("Vegetacion: Algas");
+                            System.out.println("Fauna: Peces");
+                            System.out.println("Estado: Bueno");
+                            System.out.println("Capacidad Maxima: 100");
+                            System.out.println("Numero de animales: 50");
+                            System.out.println("Especie dominante: Tiburon");
+                            break;
+                        case "2":
+                            System.out.println("Mostrar información de animales");
+                            System.out.println("Nombre: Tiburon");
+                            System.out.println("Especie: Tiburon");
+                            System.out.println("Raza: Tiburon");
+                            System.out.println("Color: Gris");
+                            System.out.println("Sexo: Macho");
+                            System.out.println("Edad: 5");
+                            System.out.println("Peso: 100");
+                            System.out.println("Altura: 2");
+                            System.out.println("Tipo: Acuatico");
+                            break;
+                        case "3":
+                            break;
+                    }
+                case "2":
+                    System.out.println("Tours personalizados");
+                    System.out.println("Nombre del visitante");
+                    String nombreVisitante = scanner.nextLine();
+                    System.out.println("Edad del visitante");
+                    String edadVisitante = scanner.nextLine();
+                    System.out.println("Gustos del visitante");
+                    String gustosVisitante = scanner.nextLine();
+                    System.out.println("Preferencias del visitante");
+                    String preferenciasVisitante = scanner.nextLine();
+                    break;
+                case "3":
+                    break;
+            }
         }
     }
  }

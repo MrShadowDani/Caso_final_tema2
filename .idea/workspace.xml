@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b506b30d-c7b6-4cc0-9a2f-668ab36d505e" name="Changes" comment="Avances">
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/AdministracionDeRecursos/Pedidos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/AdministracionDeRecursos/Productos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/AdministracionDeRecursos/Proveedores.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/AdministracionDeRecursos/Trabajadores.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/CuidadoDeLosAnimales/Animales.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/CuidadoDeLosAnimales/AnimalesAcuaticos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/CuidadoDeLosAnimales/AnimalesAviarios.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/CuidadoDeLosAnimales/AnimalesTerrestres.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/GestionDeHabitats/Habitats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/GestionDeHabitats/HabitatsAcuaticos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/GestionDeHabitats/HabitatsAviarios.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/GestionDeHabitats/HabitatsTerrestres.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/InteraccionConVisitantes/InformacionDeHabitatsYAnimales.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/InteraccionConVisitantes/ToursPersonalizados.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/InteraccionConVisitantes/Visitantes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/MantenimientoYSeguridad/Instalaciones.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/MantenimientoYSeguridad/Mantenimientos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/MantenimientoYSeguridad/Reparaciones.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/MantenimientoYSeguridad/Seguridad$Camara.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/MantenimientoYSeguridad/Seguridad$Sensor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/MantenimientoYSeguridad/Seguridad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Caso_final_tema2/Zoologico.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/Habitats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionDeHabitats/Habitats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Zoologico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zoologico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +120,7 @@
       <workItem from="1710171230634" duration="2891000" />
       <workItem from="1710174135185" duration="83000" />
       <workItem from="1710174227036" duration="5981000" />
-      <workItem from="1710229895828" duration="25588000" />
+      <workItem from="1710229895828" duration="26871000" />
     </task>
     <task id="LOCAL-00001" summary="Avances">
       <option name="closed" value="true" />
@@ -309,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710261725703</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1710263409540</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710263409540</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
