@@ -4,6 +4,7 @@ public class Habitats {
 
     //Caracteristicas de los habitats
     private String nombre;
+    private String descripcion;
     public String dimensiones;
     private String ubicacion;
     private String tipo;
@@ -18,8 +19,9 @@ public class Habitats {
     private String especieDominante;
 
     //Constructor
-    public Habitats(String nombre, String dimensiones, String ubicacion, String tipo, String temperatura, String humedad, String vegetacion, String fauna, String estado, int id, int capacidadMaxima, int numAnimales, String especieDominante) {
+    public Habitats(String nombre, String descripcion, String dimensiones, String ubicacion, String tipo, String temperatura, String humedad, String vegetacion, String fauna, String estado, int id, int capacidadMaxima, int numAnimales, String especieDominante) {
         this.nombre = nombre;
+        this.descripcion = descripcion;
         this.dimensiones = dimensiones;
         this.ubicacion = ubicacion;
         this.tipo = tipo;
@@ -37,6 +39,7 @@ public class Habitats {
     // Constructor de copia
     public Habitats(Habitats original) {
         this.nombre = original.nombre;
+        this.descripcion = original.descripcion;
         this.dimensiones = original.dimensiones;
         this.ubicacion = original.ubicacion;
         this.tipo = original.tipo;
@@ -73,6 +76,13 @@ public class Habitats {
     }
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 
     public String getDimensiones() {

@@ -8,15 +8,15 @@ import java.util.List;
 public class HabitatsAviarios extends Habitats{
     //Caracteristicas de los habitats aviarios
     private String alturaMaxima;
-    private String tipoDeAveDominante;
+    private int catidadDeArboles;
     private int cantidadDeNidos;
     private List<AnimalesAviarios> animales;
 
     //Constructor
-    public HabitatsAviarios(String nombre, String dimensiones, String ubicacion, String tipo, String temperatura, String humedad, String vegetacion, String fauna, String estado, int id, int capacidadMaxima, int numAnimales, String especieDominante, String alturaMaxima, String tipoDeAveDominante, int cantidadDeNidos, List<AnimalesAviarios> animales) {
-        super(nombre, dimensiones, ubicacion, tipo, temperatura, humedad, vegetacion, fauna, estado, id, capacidadMaxima, numAnimales, especieDominante);
+    public HabitatsAviarios(String nombre, String descripcion, String dimensiones, String ubicacion, String tipo, String temperatura, String humedad, String vegetacion, String fauna, String estado, int id, int capacidadMaxima, int numAnimales, String especieDominante, String alturaMaxima, int catidadDeArboles, int cantidadDeNidos, List<AnimalesAviarios> animales) {
+        super(nombre, descripcion, dimensiones, ubicacion, tipo, temperatura, humedad, vegetacion, fauna, estado, id, capacidadMaxima, numAnimales, especieDominante);
         this.alturaMaxima = alturaMaxima;
-        this.tipoDeAveDominante = tipoDeAveDominante;
+        this.catidadDeArboles = catidadDeArboles;
         this.cantidadDeNidos = cantidadDeNidos;
         this.animales = animales;
     }
@@ -25,7 +25,7 @@ public class HabitatsAviarios extends Habitats{
     public HabitatsAviarios(HabitatsAviarios original) {
         super(original);
         this.alturaMaxima = original.alturaMaxima;
-        this.tipoDeAveDominante = original.tipoDeAveDominante;
+        this.catidadDeArboles = original.catidadDeArboles;
         this.cantidadDeNidos = original.cantidadDeNidos;
         this.animales = original.animales != null ? new ArrayList<>(original.animales) : null;
     }
@@ -39,11 +39,11 @@ public class HabitatsAviarios extends Habitats{
         this.alturaMaxima = alturaMaxima;
     }
 
-    public String getTipoDeAveDominante() {
-        return tipoDeAveDominante;
+    public int getcatidadDeArboles() {
+        return catidadDeArboles;
     }
-    public void setTipoDeAveDominante(String tipoDeAveDominante) {
-        this.tipoDeAveDominante = tipoDeAveDominante;
+    public void setcatidadDeArboles(int catidadDeArboles) {
+        this.catidadDeArboles = catidadDeArboles;
     }
 
     public int getCantidadDeNidos() {
