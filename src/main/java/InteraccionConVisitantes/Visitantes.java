@@ -43,4 +43,12 @@ public class Visitantes {
     public void setPreferencias(String preferencias) {
         this.preferencias = preferencias;
     }
+
+    //Metodo para mostrar los datos de los visitantes
+    public void mostrarVisitantes(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.println("Gustos: " + gustos);
+        System.out.println("Preferencias: " + preferencias);
+    }
 }

@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b506b30d-c7b6-4cc0-9a2f-668ab36d505e" name="Changes" comment="Avances">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Pedidos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Proveedores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Proveedores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Recursos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Trabajadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Trabajadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/InformacionDeHabitatsYAnimales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/InformacionDeHabitatsYAnimales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/ToursPersonalizados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/ToursPersonalizados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/Visitantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InteraccionConVisitantes/Visitantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Instalaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Instalaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Mantenimientos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Mantenimientos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +84,7 @@
       <workItem from="1710171230634" duration="2891000" />
       <workItem from="1710174135185" duration="83000" />
       <workItem from="1710174227036" duration="5981000" />
-      <workItem from="1710229895828" duration="12423000" />
+      <workItem from="1710229895828" duration="13819000" />
     </task>
     <task id="LOCAL-00001" summary="Avances">
       <option name="closed" value="true" />
@@ -269,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710238486326</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1710242994378</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710242994378</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
