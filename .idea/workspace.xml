@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b506b30d-c7b6-4cc0-9a2f-668ab36d505e" name="Changes" comment="Avances">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Instalaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Instalaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Mantenimientos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Mantenimientos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Trabajadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdministracionDeRecursos/Trabajadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Seguridad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MantenimientoYSeguridad/Seguridad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Zoologico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zoologico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +45,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/danij/IdeaProjects/Caso_final_tema2/Zoologico/Mantenimiento_Seguridad/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Zoologico.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/danij/IdeaProjects/Caso_final_tema2/Zoologico/Mantenimiento_Seguridad/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "settings.qodana",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Zoologico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zoologico" />
+      <module name="Caso_final_tema2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Zoologico" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,7 +101,7 @@
       <workItem from="1710171230634" duration="2891000" />
       <workItem from="1710174135185" duration="83000" />
       <workItem from="1710174227036" duration="5981000" />
-      <workItem from="1710229895828" duration="13819000" />
+      <workItem from="1710229895828" duration="21094000" />
     </task>
     <task id="LOCAL-00001" summary="Avances">
       <option name="closed" value="true" />
@@ -270,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710242994378</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1710246455854</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710246455854</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
